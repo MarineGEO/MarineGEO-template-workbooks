@@ -1,0 +1,132 @@
+﻿fieldName,code,definition
+geoform,Aquaculture Structure,"These structures can take many forms: lines suspended over the sediment, floating wooden frameworks sub-tidal structures attached to the benthos such as wooden piers and platforms, and pens and enclosures (both at the surface and submerged). These structures are associated with the cultivation of fish, crustaceans, and shellfish for human use or consumption. They may be integrated into shallow water bays and ponds, or they may be deployed in deeper water. Due to their structural aspects, they can be attractive to fish and other animals. They are often sources of nutrients and, thus, have impacts on the surrounding ecology."
+geoform,Bar,"A relatively shallow place (in a stream, lake, sea, or other body of water) that is typically a submerged ridge, or bank consisting of (or covered) by sand or other unconsolidated material—but may also be composed of rock or other material "
+geoform,Basin,General term for an area of the seafloor or land surface that lies below the surrounding bottom or terrain elevation. They are normally areas of low relief.
+geoform,Beach,"A gently sloping zone formed by unconsolidated material at the shoreline, typically with a concave profile. This zone extends landward from the low-water line to either (a) the place where there is a definite change in material or physiographic form (such as a cliff) or (b) the line of permanent vegetation. Only those portions of the beach within the splash zone would be within the CMECS system; areas of the beach further inland are terrestrial systems. "
+geoform,Breakwater/Jetty,"Structures extending more or less perpendicularly from the shore into a body of water, which are designed to direct and confine the current or tide, to protect a harbor, or to prevent shoaling of a navigable inlet by littoral materials. "
+geoform,Bulkhead,"An artificially reinforced section of the shoreline (or the structure itself). These can be composed of piles of natural material (such as rip-rap), or they may resemble walls of timbers or other substance. They may have many purposes but generally are not intended to prevent flooding of lower areas. "
+geoform,Buoy,"Anchored objects that float in a relatively fixed position at the water surface. Most buoys are used as navigational aids and markers for channels, but many buoys also contain scientific or other observational instruments. "
+geoform,Channel,"A general term for a linear or sinuous depression on an otherwise more flat area (for example, a valley- or groove-like feature through which water flows). This is a very broad term that is often used in connection with other terms to provide more meaning "
+geoform,Dock/Pier,"A landing place for vessels normally oriented perpendicular to the shore with a flat surface for off-loading materials. Docks may be fixed in position through anchors or piles, or be supported by pilings or other structures. "
+geoform,Flat,A general term for a level (or nearly level) surface or area of land marked by little or no relief; flats are often composed of unconsolidated sediments (such as mud or sand). These forms are more commonly encountered in the intertidal or in the shallow subtidal zones
+geoform,Harbor,"A small bay or a sheltered part of a sea, lake, or other large body of water. A harbor is usually well protected (either naturally or artificially) against high waves and strong currents and serves as a safe anchorage for ships and where port facilities are present. Many smaller anthropogenic geoforms may be encountered within a harbor. "
+geoform,Island,"An area of land completely surrounded by water—or an elevated area of land surrounded by swamp or marsh, which is isolated at high water or during floods. "
+geoform,Marina/Boat Ramp,"A series of docks, walkways, slips, and support infrastructure (such as cables and small pipelines) for in-water storage of yachts and boats. Marinas commonly include one or more boat ramps, which consist of a sloping driveway for launching small, trailered vessels. "
+geoform,Marsh Platform,"The flat, often thick, accumulation of peat that supports emergent marsh vegetation. It is commonly dissected by tidal creeks, and it is occasionally buried and re-exposed through the action of beach erosion and new inlet development. "
+geoform,Mollusk Reef,An area of many shell reefs surrounded and intermixed with channels and unvegetated flats
+geoform,Outfall/Intake,"Outfalls are pipelines or tunnels that discharge municipal or industrial wastewater, storm water, combined sewer overflows, cooling water, or brine effluents to a receiving water body. Intakes are pipes designed (and placed) to draw lake or seawater into a man-made pond or other facility."
+geoform,Pilings,"A structure formed by piles that are long, slender columns—usually made of timber, steel, or reinforced concrete "
+geoform,Rip Rap Deposit,An accumulation of rock or boulders placed along a waterway or shoreline to reduce erosion.
+geoform,Shoal,"A relatively shallow area in a body of water that rises very close to, or reaches, the surface. Shoals have a variety of shapes that are influenced by tidal and river currents. They tend to consist of (or be covered by) sand or other unconsolidated sediments, but may also be composed of rock or other materials. Unlike banks, shoals can be exposed during low tide or periods of low water flow in rivers or streams."
+geoform,Shore,The intersection of a specified plane of water with the beach that migrates with changes of the tide or of the water level.
+geoform,Tree Fall,"Tree falls are trees or woody parts that have sunk to the deep ocean floor (generally 2,000 meters or deeper) and may remain there for decades. They are colonized by a specialized group of wood-boring organisms such as xylophaga (a bivalve) and several crustaceans. Tree falls also support a suite of predators and scavengers. "
+geoform,Worm Reef,"Reefs that consist of the consolidated tubes of many individual tube worms, often of the sabellaria and serpulid genera. They may be calcareous or siliceous, and the outer surface of these reefs may support living worm communities. "
+geoform,Wreck,"Any of a variety of man-made structures (such as sunken ships or collapsed drilling rigs) that have fallen to the seafloor. They may be either completely or partially submerged. Wrecks often provide valuable habitat for attaching organisms or fish, but they may also leach contaminants into the environment. "
+substrate,Anthropogenic Rock,"Anthropogenic Substrate that is primarily composed of natural mineral materials that were purposefully or accidentally deposited by humans. This includes breakwaters made
+of natural stone, dredge material, artificial reefs made of natural stone, as well as beach nourishment and beach fill. Shape for this substrate class is covered in the GC (e.g., Groin, Breakwater, and Dredge Deposit). If the origin of a feature cannot be determined, it is assumed to be of natural origin and classified in the Geologic or Biogenic Substrate Origin."
+substrate,Clam Hash,Shell Hash (with a median particle size of 2 millimeters to < 64 millimeters) that is primarily composed of loose clam shells and shell bits.
+substrate,Mud,Geologic Substrate surface layer contains no trace of Gravel and is composed of 90% or more Mud (particles less than 0.0625 millimeters in diameter); the remainder (< 10%) is composed of Sand (particles 0.0625 millimeters to < 2 millimeters in diameter).
+substrate,Muddy Sand,Geologic Substrate surface layer contains no trace of Gravel and is composed of 50% to < 90% Sand (particles 0.0625 millimeters to 2 millimeters in diameter); the remainder is composed of Mud (particles less than 0.0625 millimeters in diameter).
+substrate,Organic Detritus,"Unconsolidated organic substrate that is composed primarily of decomposing plant and animal tissues. Organic Detritus is mostly broken down—with a median particle size from 0.0625 millimeters to 4 millimeters (Sand and Granule)—and is often in an advanced state of utilization and decay. Organic Detritus may be produced in-situ, deposited from above, or transported horizontally, or may be remnant material. "
+substrate,Oyster Hash,Shell Hash (with a median particle size of 2 millimeters to < 64 millimeters) that is primarily composed of loose oyster shells and shell bits.
+substrate,Oyster Reef Substrate,Shell Reef that is primarily composed of cemented or conglomerated oyster shells.
+substrate,Peat Debris,Organic substrates that are primarily composed of non-living peat deposits—from modern or prehistoric times.
+substrate,Sand,Geologic Substrate surface layer contains no trace of Gravel and is composed of > 90% Sand (particles 0.0625 millimeters to < 2 millimeters in diameter).
+substrate,Sandy Mud,Geologic Substrate surface layer contains no trace of Gravel and is composed of 10% to < 50% Sand; the remainder is composed of Mud (particles less than 0.0625 millimeters in diameter).
+substrate,Woody Debris,"Organic substrates that are primarily composed of small trees, branches, wood, or wood fragments that are broken into particles with a median particle size from 4 millimeters to 4,096 millimeters. "
+biotic,Barnacles,Areas dominated by barnacles (small filter- feeding crustaceans in a protective shell that is attached to hard substrate) and associated fauna
+biotic,Brackish Marsh,"Marshes dominated by species with a wide range of salinity tolerance. Depending on the salinity levels (0.5– 30), more or less salt-intolerant species may be present. "
+biotic,Clam Bed,"Areas where either: (a) living clams, siphons, or siphon holes are the dominant surface feature, or; (b) clams dominate the faunal biomass. Siphons or shells may (or may not) be visible from above the sediment surface. "
+biotic,Filamentous Algal Bed,"Areas dominated by filamentous algae that have a growth form consisting of fine filaments or strands with no blades or stipes. Filaments may branch, but they lack complex structures. The strands are undifferentiated (with a growth axis in one direction). Filamentous algae can form dense mats "
+biotic,Freshwater and Brackish Tidal Aquatic Veg.,"Tidal aquatic vegetation beds dominated by submerged, rooted, vascular species that have limited (or no) salt tolerance. Some species, such as Ruppia maritima, can have a wide range of salt tolerance, and are included in this group when occurring in low salt environments or with other salt intolerant species that indicate low salt environments. "
+biotic,Freshwater Tidal Marsh,"Tidally influenced riverine marshes with salinity levels less than 0.5, which are dominated by salt– intolerant, herbaceous species (e.g., Juncus sp., Eleocharis sp., and Zizania sp.). Non-tidal, palustrine, freshwater marshes are beyond the scope of CMECS. "
+biotic,High Salt Marsh,"Salt marshes dominated by herbaceous, emergent vegetation and forb-like dwarf shrubs; areas are infrequently flooded by tides and characterized by distinctive patterns of halophytic vegetation (e.g., Spartina patens). Low shrubs may be present, but they are not dominant. Shrub-dominated portions of salt marshes are included in the Saltwater Tidal Scrub-Shrub Wetland Biotic Group. "
+biotic,Leathery/Leafy Algal Bed (Gracilaria etc.),"Areas dominated by leathery/leafy algae have a variety of specialized tissues (including thalli) that resemble stems and leaf-like blades. They generally maintain their shape when removed from water, and they often possess air bladders (pneumatocysts) and other flotation bodies. "
+biotic,Low and Intermediate Salt Marsh,"Salt marshes that are regularly flooded by tides so as to support characteristic halophytic vegetation (e.g., Spartina alterniflora). In locations with appropriate topography and tidal exchange, extensive meadows may form. Shrubs are less common in these areas. "
+biotic,Mussel Bed,"Soft-sediment areas dominated by mussel species that are not attached to a hard substrate. These animals may be resting on the sediment surface, partially embedded in the sediment, or attached to conspecifics (by using their byssal threads), or to a piece of gravel, e.g., in Slightly Gravelly Fine Sediments. Individuals in the Mussel Bed Group are not present in densities sufficient to construct substrate; in that case, they would be classified as Mussel Reef. "
+biotic,Oyster Reef,Areas dominated by the ridge- or mound- like structures formed by the colonization and growth of oysters that are attached (cemented) to a substrate of live and dead conspecifics. Oyster reefs provide excellent structural habitat as well as effective water filtration.
+biotic,Scallop Bed,"Areas dominated by accumulations of scallops. Scallops have a series of small eyes and are mobile, clapping their shells together and pulsing through the water to escape predators such as starfish. Scallops may occur in high densities, but populations can be significantly affected by a number of factors, including larval recruitment, predation, and fishing pressure. "
+biotic,Seagrass Bed,"Tidal aquatic vegetation beds dominated by any number of seagrass or eelgrass species, including Cymocedea sp., Halodule sp., Thalassia sp., Halophilla sp., Vallisnera sp., Ruppia sp., Phyllospadix sp., and Zostera sp.. Seagrass beds (Figure 8.15) may occur in true marine salinities, and they may extend into the lower salinity zones of estuaries. "
+biotic,Sheet Algal Bed,"Areas dominated by sheet (thallose) algae that form thin, undifferentiated, membranous sheets with no stipe or blades. Growth in these algae occurs in two directions. The sheets can be as thin as a single cell. "
+biotic,Tunicate Bed,"Sandy or muddy areas dominated by members of the subphylum Urochordata, including ascidians, sea squirts, and other tunicates. Tunicates are bag-like organisms that use incurrent and excurrent siphons for filter feeding and respiration. These animals may be resting on the sediment surface, partially embedded in the sediment, or attached to conspecifics. On both East and West coasts of the U.S., and in many other areas worldwide, colonies of the invasive sea squirt Didemnum are rapidly invading and smothering local biotopes. "
+baitType,Squid,
+habitat,Mangrove,"Tidally influenced, dense, tropical or subtropical forest with a shore zone dominated by true mangroves"
+habitat,Reef,"Areas dominated by reef-building fauna, including living corals, mollusks, polychaetes or glass sponges."
+habitat,Sand,"Sandy bottoms without vegetation beds or reefs"
+habitat,Seagrass,"Tidal aquatic vegetation beds dominated by any number of seagrass or eelgrass species"
+taxonRank,Phylum,
+taxonRank,Class,
+taxonRank,Order,
+taxonRank,Family,
+taxonRank,Genus,
+taxonRank,Species,
+taxonRank,Subphylum,
+taxonRank,Superclass,
+taxonRank,Subclass,
+taxonRank,Superorder,
+taxonRank,Suborder,
+taxonRank,Superfamily,
+taxonRank,Subfamily,
+taxonRank,Supergenus,
+taxonRank,Subgenus,
+taxonRank,Subspecies,
+seagrassTaxonRank,Phylum,
+seagrassTaxonRank,Class,
+seagrassTaxonRank,Order,
+seagrassTaxonRank,Family,
+seagrassTaxonRank,Genus,
+seagrassTaxonRank,Species,
+seagrassTaxonRank,Subphylum,
+seagrassTaxonRank,Superclass,
+seagrassTaxonRank,Subclass,
+seagrassTaxonRank,Superorder,
+seagrassTaxonRank,Suborder,
+seagrassTaxonRank,Superfamily,
+seagrassTaxonRank,Subfamily,
+seagrassTaxonRank,Supergenus,
+seagrassTaxonRank,Subgenus,
+seagrassTaxonRank,Subspecies,
+foulingTaxonRank,Phylum,
+foulingTaxonRank,Class,
+foulingTaxonRank,Order,
+foulingTaxonRank,Family,
+foulingTaxonRank,Genus,
+foulingTaxonRank,Species,
+foulingTaxonRank,Subphylum,
+foulingTaxonRank,Superclass,
+foulingTaxonRank,Subclass,
+foulingTaxonRank,Superorder,
+foulingTaxonRank,Suborder,
+foulingTaxonRank,Superfamily,
+foulingTaxonRank,Subfamily,
+foulingTaxonRank,Supergenus,
+foulingTaxonRank,Subgenus,
+foulingTaxonRank,Subspecies,
+epifaunaTaxonRank,Phylum,
+epifaunaTaxonRank,Class,
+epifaunaTaxonRank,Order,
+epifaunaTaxonRank,Family,
+epifaunaTaxonRank,Genus,
+epifaunaTaxonRank,Species,
+epifaunaTaxonRank,Subphylum,
+epifaunaTaxonRank,Superclass,
+epifaunaTaxonRank,Subclass,
+epifaunaTaxonRank,Superorder,
+epifaunaTaxonRank,Suborder,
+epifaunaTaxonRank,Superfamily,
+epifaunaTaxonRank,Subfamily,
+epifaunaTaxonRank,Supergenus,
+epifaunaTaxonRank,Subgenus,
+epifaunaTaxonRank,Subspecies,
+site,BT,"Bocas del Toro, Panama"
+site,CB,"Carrie Bow Cay, Belize"
+site,EW,"Smithsonian Environmental Research Center at Edgewater, Maryland"
+site,FHL,"Friday Harbor, Washington"
+site,FP,"Smithsonian Marine station at Fort Pierce, Florida"
+site,HAK,"Hakai Institute, British Columbia, Canada"
+site,HKG,Hong Kong
+site,KB,"Kane'ohe Bay, Hawai'i"
+site,MAD,Madeira
+site,SFB,"San Francisco Bay, California"
+site,TAS,"Tasmania"
+site,TGC,"Gulf Coast, Texas"
