@@ -2,7 +2,7 @@ import MarinegeoTemplateBuilder
 from MarinegeoTemplateBuilder.classes import Vocab, Field
 
 # create the attributes to add to the workbook
-attributes = [
+fields = [
     Field(sheet="Location",fieldName="site",fieldDefinition="MarineGEO site abbreviation",fieldType="list"),
     Field(sheet="Location",fieldName="locationID",fieldDefinition="Unique code for each sampling location",fieldType="string"),
     Field(sheet="Location",fieldName="locality",fieldDefinition="Local or common name of the sampling location",fieldType="string"),
@@ -24,4 +24,4 @@ vocab = [
 ]
 
 # build the data entry template workbook
-MarinegeoTemplateBuilder.main('Demo-Template.xlsx', attributes, vocab, "MarineGEO DEMO template", 'DEFAULT')
+MarinegeoTemplateBuilder.main('Demo-Template.xlsx', fields, vocab, "MarineGEO DEMO template", 'DEFAULT')

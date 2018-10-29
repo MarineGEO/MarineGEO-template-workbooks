@@ -6,7 +6,7 @@ metadataValues = {"TemplateVersion": "v0.0.1",
 
 
 MarinegeoTemplateBuilder.main('MarineGEO_Seagrass-Quadrat_DataEntryTemplate_v0.0.1.xlsx',
-           'attributes_v0.0.1.csv',
+           'fields_v0.0.1.csv',
            'vocab_v0.0.1.csv',
            "MarineGEO Seagrass Quadrat Template",
            'DEFAULT', protect=True, metadataValues=metadataValues)
