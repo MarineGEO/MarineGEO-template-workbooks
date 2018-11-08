@@ -2,9 +2,9 @@
 Location,site,MarineGEO site abbreviation,list,,,,,,warning
 Location,locationID,Unique code for each sampling location,string,,,,,,warning
 Location,locality,Local or common name of the sampling location,string,,,,,,warning
+Location,date,Sampling date,date,YYYY-MM-DD,,,,,warning
 Location,decimalLatitude,"Decimal latitude hh.hhhhhhh",decimal,,,degree,-90,90,warning
 Location,decimalLongitude,"Decimal longitude hh.hhhhhhh",decimal,,,degree,-180,180,warning
-Location,habitat,habitat type at sampling location,string,,,,,,warning
 Location,locationRemarks,Comments or notes about the location,string,,,,,,warning
 Cover,locationID,Foreign key to the locationID defined on the Location sheet,fkey,,Location$locationID,,,,warning
 Cover,transectNumber,"Transect Number",integer,,,dimensionless,1,3,warning
@@ -22,7 +22,7 @@ Invertebrates,locationID,Foreign key to the locationID defined on the Location s
 Invertebrates,transectNumber,"Transect Number",integer,,,dimensionless,1,3,warning
 Invertebrates,quadrat,"Stop number along transect",integer,,,dimensionless,1,12,warning
 Invertebrates,vernacularName,"A common or vernacular name",string,,,,,,warning
-Invertebrates,scientificName,"Lowest known taxon name",string,,,,,,warning
 Invertebrates,taxonRank,"The taxonomic rank of the most specific name in the scientificName.",list,,,,,,warning
+Invertebrates,scientificName,"Lowest known taxon name",string,,,,,,warning
 Invertebrates,speciesIdentifiedBy,"Full name (first last) of person who identified the taxon.",string,,,,,,warning
 Invertebrates,bodyLength,Approximate size of the mobile benthic invertebrate in centimeters,decimal,,,centimeter,0,,warning

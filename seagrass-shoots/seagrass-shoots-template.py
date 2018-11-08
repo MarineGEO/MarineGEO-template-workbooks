@@ -2,11 +2,11 @@ import MarinegeoTemplateBuilder
 
 metadataValues = {"TemplateVersion": "v0.0.1",
                   "ProtocolVersion": "v0.0.1",
-                  "Title": "Seagrass Quadrats - [your site name] - [date in YYYY-MM-DD format]"}
+                  "Title": "Seagrass Shoots - [your site name] - [date in YYYY-MM-DD format]"}
 
 
-MarinegeoTemplateBuilder.main('MarineGEO_Seagrass-Quadrat_DataEntryTemplate_v0.0.1.xlsx',
+MarinegeoTemplateBuilder.main('MarineGEO_Seagrass-Shoots_DataEntryTemplate_v0.0.1.xlsx',
            'fields_v0.0.1.csv',
            'vocab_v0.0.1.csv',
-           "MarineGEO Seagrass Shoots Template",
+           "MarineGEO Shoots Quadrat Template",
            'DEFAULT', protect=True, metadataValues=metadataValues)
