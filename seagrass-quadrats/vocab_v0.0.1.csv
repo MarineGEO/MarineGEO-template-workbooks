@@ -1,18 +1,9 @@
 ﻿fieldName,code,definition
-taxonRank,Phylum,
 taxonRank,Class,
 taxonRank,Order,
 taxonRank,Family,
 taxonRank,Genus,
 taxonRank,Species,
-taxonRank,Subphylum,
-taxonRank,Superclass,
-taxonRank,Subclass,
-taxonRank,Superorder,
-taxonRank,Suborder,
-taxonRank,Superfamily,
-taxonRank,Subfamily,
-taxonRank,Supergenus,
 taxonRank,Subgenus,
 taxonRank,Subspecies,
 site,AUS-TAS,"Tasmania"
@@ -47,7 +38,9 @@ percentCover,85%,Between 80-85%
 percentCover,90%,Between 85-90%
 percentCover,95%,Between 90-95%
 percentCover,100%,100% cover
-coverType,Seagrass,"Seagrass - note species in seagrassScientificName field"
+coverType,Seagrass,"Seagrass - note species in ScientificName field"
 coverType,Sand,Sandy bottoms
 coverType,Mud,Muddy bottoms
 coverType,Mixed,Mixed bottoms
+grazingScars,Present,Grazing scars present within or immediately adjacent to the quadrat
+grazingScars,Absent,No grazing scars present within or immediately adjacent to the quadrat

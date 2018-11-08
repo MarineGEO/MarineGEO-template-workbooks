@@ -1,27 +1,28 @@
-﻿sheet,fieldName,fieldDefinition,fieldType,formatString,loopup,unit,minValue,maxValue
-Location,site,MarineGEO site abbreviation,list,,,,,
-Location,locationID,Unique code for each sampling location,string,,,,,
-Location,locality,Local or common name of the sampling location,string,,,,,
-Location,decimalLatitude,"Decimal Latitude hh.hhhhhhh, approximate",decimal,,,degree,-90,90
-Location,decimalLongitude,"Decimal Longitude hh.hhhhhhh, approximate",decimal,,,degree,-180,180
-Location,locationRemarks,Comments or notes about the Location,string,,,,,
-Cover,locationID,Foreign key to the locationID defined on the Location sheet,fkey,,Location$locationID,,,
-Cover,transectNumber,"Transect Number",integer,,,dimensionless,1,3
-Cover,stopNumber,"Stop number along transect",integer,,,dimensionless,1,5
-Cover,coverType,Type of cover,list,,,,,
-Cover,ScientificName,"Lowest known taxon name",string,,,,,
-Cover, percentCover, Percent cover of category,list,,,,,
-Invertebrates,locationID,Foreign key to the locationID defined on the Location sheet,fkey,,Location$locationID,,,
-Invertebrates,transectNumber,"Transect Number",integer,,,dimensionless,1,3
-Invertebrates,stopNumber,"Stop number along transect",integer,,,dimensionless,1,5
-Invertebrates,vernacularName,"A common or vernacular name",string,,,,,
-Invertebrates,scientificName,"Lowest known taxon name",string,,,,,
-Invertebrates,taxonRank,"The taxonomic rank of the most specific name in the scientificName.",list,,,,,
-Invertebrates,speciesIdentifiedBy,"Full name (first last) of person(s) who identified the taxon, usually the person who collected the cover data in field.  Separate multiple names with semicolons.",string,,,,,
-Invertebrates,bodyLength,Approximate size of the mobile benthic invertebrate in centimeters,decimal,,,centimeter,0,
-Invertebrates,individualCount,Number of individuals in the quadrant,integer,,,dimensionless,1,
-Shoots,locationID,Foreign key to the locationID defined on the Location sheet,fkey,,Location$locationID,,,
-Shoots,transectNumber,"Transect Number",integer,,,dimensionless,1,3
-Shoots,stopNumber,"Stop number along transect",integer,,,dimensionless,1,5
-Shoots,totalShoots,"Total number of shoots in 0.25x0.25m subquadrat",integer,,,dimensionless,0,
-Shoots,media,"File names of photos related to shoot characteristics, if collected.",string,,,,,
+﻿sheet,fieldName,fieldDefinition,fieldType,formatString,lookup,unit,minValue,maxValue,warnLevel
+Location,site,MarineGEO site abbreviation,list,,,,,,warning
+Location,locationID,Unique code for each sampling location,string,,,,,,warning
+Location,locality,Local or common name of the sampling location,string,,,,,,warning
+Location,decimalLatitude,"Decimal latitude hh.hhhhhhh",decimal,,,degree,-90,90,warning
+Location,decimalLongitude,"Decimal longitude hh.hhhhhhh",decimal,,,degree,-180,180,warning
+Location,habitat,habitat type at sampling location,string,,,,,,warning
+Location,locationRemarks,Comments or notes about the location,string,,,,,,warning
+Cover,locationID,Foreign key to the locationID defined on the Location sheet,fkey,,Location$locationID,,,,warning
+Cover,transectNumber,"Transect Number",integer,,,dimensionless,1,3,warning
+Cover,quadrat,"Stop number along transect",integer,,,dimensionless,1,12,warning
+Cover,coverType,Type of cover,list,,,,,,warning
+Cover,ScientificName,"Lowest known taxon name",string,,,,,,warning
+Cover,percentCover, Percent cover of category,list,,,,,,warning
+Shoots,locationID,Foreign key to the locationID defined on the Location sheet,fkey,,Location$locationID,,,,warning
+Shoots,transectNumber,"Transect Number",integer,,,dimensionless,1,3,warning
+Shoots,quadrat,"Stop number along transect",integer,,,dimensionless,1,12,warning
+Shoots,totalShoots,"Total number of shoots in the 0.25x0.25m subquadrat",integer,,,dimensionless,0,,warning
+Shoots,grazingScars,"Presence of any grazing scars within or immediately adjacent to the quadrat",list,,,,,,warning
+Shoots,media,"File names of quadrat photos.",string,,,,,,warning
+Invertebrates,locationID,Foreign key to the locationID defined on the Location sheet,fkey,,Location$locationID,,,,warning
+Invertebrates,transectNumber,"Transect Number",integer,,,dimensionless,1,3,warning
+Invertebrates,quadrat,"Stop number along transect",integer,,,dimensionless,1,12,warning
+Invertebrates,vernacularName,"A common or vernacular name",string,,,,,,warning
+Invertebrates,scientificName,"Lowest known taxon name",string,,,,,,warning
+Invertebrates,taxonRank,"The taxonomic rank of the most specific name in the scientificName.",list,,,,,,warning
+Invertebrates,speciesIdentifiedBy,"Full name (first last) of person who identified the taxon.",string,,,,,,warning
+Invertebrates,bodyLength,Approximate size of the mobile benthic invertebrate in centimeters,decimal,,,centimeter,0,,warning
