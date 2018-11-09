@@ -11,3 +11,5 @@ site,USA-MDA,"Smithsonian Environmental Research Center at Edgewater, Maryland"
 site,USA-SFB,"San Francisco Bay, California"
 site,USA-TXS,"Gulf Coast, Texas"
 site,USA-WAS,"Friday Harbor, Washington"
+disease,Yes,Disease visible on seagrass sample
+disease,No,No disease visible on seagrass sample

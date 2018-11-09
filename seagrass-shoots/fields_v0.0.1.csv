@@ -17,3 +17,5 @@ Shoots,bladeDrymass,"blade drymass with tin in mg",decimal,,,milligrams,0,,warni
 Shoots,longestLeafLength,"longest leaf length in mm",decimal,,,milimeters,0,,warning
 Shoots,longestLeafWidth,"longest leaf width in mm",decimal,,,milimeters,0,,warning
 Shoots,sheathLength,"Sheath length in mm",decimal,,,milimeters,0,,warning
+Shoots,disease,"Is there disease visible on the shoot?",list,,,,,,warning
+Shoots,longestLesionLength,"Length of the longest lesion in mm",decimal,,,milimeters,0,,warning
