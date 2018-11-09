@@ -1,0 +1,20 @@
+﻿fieldName,code,definition
+site,AUS-TAS,"Tasmania"
+site,BEL-CBC,"Carrie Bow Cay, Belize"
+site,CAN-BCC,"Hakai Institute, British Columbia, Canada"
+site,HKG-HKG,Hong Kong
+site,PAN-BDT,"Bocas del Toro, Panama"
+site,POR-MAD,Madeira
+site,USA-IRL,"Smithsonian Marine station at Fort Pierce, Florida"
+site,USA-HIK,"Kane'ohe Bay, Hawai'i"
+site,USA-MDA,"Smithsonian Environmental Research Center at Edgewater, Maryland"
+site,USA-SFB,"San Francisco Bay, California"
+site,USA-TXS,"Gulf Coast, Texas"
+site,USA-WAS,"Friday Harbor, Washington"
+taxonRank,Class,
+taxonRank,Order,
+taxonRank,Family,
+taxonRank,Genus,
+taxonRank,Species,
+taxonRank,Subgenus,
+taxonRank,Subspecies,

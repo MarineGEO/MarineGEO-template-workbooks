@@ -1,0 +1,25 @@
+﻿sheet,fieldName,fieldDefinition,fieldType,formatString,lookup,unit,minValue,maxValue,warnLevel
+Location,site,MarineGEO site abbreviation,list,,,,,,warning
+Location,locationID,Unique code for each sampling location,string,,,,,,warning
+Location,locality,Local or common name of the sampling location,string,,,,,,warning
+Location,decimalLatitude,"Decimal latitude hh.hhhhhhh",decimal,,,degree,-90,90,warning
+Location,decimalLongitude,"Decimal longitude hh.hhhhhhh",decimal,,,degree,-180,180,warning
+Location,locationRemarks,Comments or notes about the location,string,,,,,,warning
+Transect,locationID,Foreign key to the locationID defined on the Location sheet,fkey,,Location$locationID,,,,warning
+Transect,transectID,Unique identifier for the transect,string,,,,,,warning
+Transect,date,Sampling date,date,YYYY-MM-DD,,,,,warning
+Transect,netHeight,Net height in meters,decimal,,,meters,0,,warning
+Transect,netWidth,Net width in meters,decimal,,,meters,0,,warning
+Transect,meshSize,Net mesh size in mm,decimal,,,milimeters,0,,warning
+Taxon,taxonID,Unique Identifer for taxon,string,,,,,,warning
+Taxon,vernacularName,"A common or vernacular name",string,,,,,,warning
+Taxon,taxonRank,"The taxonomic rank of the most specific name in the scientificName.",list,,,,,,warning
+Taxon,scientificName,"Lowest known taxon name",string,,,,,,warning
+Taxon,lifeStage,Taxa life stage,string,,,,,,warning
+Abundance,transectID,Foreign key to the transectID defined on the transect sheet,fkey,,Transect$transectID,,,,warning
+Abundance,taxonID,Foreign key to the taxaID defined on the Taxon sheet,fkey,,Taxon$taxonID,,,,warning
+Abundance,count,Number of individuals,integer,,,dimensionless,0,,warning
+Length,transectID,Foreign key to the transectID defined on the transect sheet,fkey,,Transect$transectID,,,,warning
+Length,taxonID,Foreign key to the taxaID defined on the Taxon sheet,fkey,,Taxon$taxonID,,,,warning
+Length,length,Length of individual in mm,decimal,,,milimeters,0,,warning
+
