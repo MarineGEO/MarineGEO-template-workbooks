@@ -7,8 +7,8 @@ Location,decimalLongitude,"Decimal longitude hh.hhhhhhh",decimal,,,degree,-180,1
 Location,locationRemarks,Comments or notes about the location,string,,,,,,warning
 Shoots,locationID,Foreign key to the locationID defined on the Location sheet,fkey,,Location$locationID,,,,warning
 Shoots,sampleID,"Seagrass Sample Identifier",string,,,,,,warning
-Shoots,collectionDate,Date seagrass was collected,date,,,,,,warning
-Shoots,processingDate,Date seagrass sample was processed in the lab,date,,,,,,warning
+Shoots,collectionDate,Date seagrass was collected,date,YYYY-MM-DD,,,,,warning
+Shoots,processingDate,Date seagrass sample was processed in the lab,date,YYYY-MM-DD,,,,,warning
 Shoots,epibiontTinWeight,"Epibiont tin weight in mg",decimal,,,milligrams,0,,warning
 Shoots,epiDryMassWithTin,"Epibiont drymass with tin in mg",decimal,,,milligrams,0,,warning
 Shoots,bladeTinWeight,"blade tin weight in mg",decimal,,,milligrams,0,,warning
