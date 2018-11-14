@@ -14,7 +14,7 @@ Sieve,sampleID,"Seagrass Sample Identifier",string,,,,,,warning
 Sieve,collectionDate,Date seagrass was collected,date,YYYY-MM-DD,,,,,warning
 Sieve,processingDate,Date seagrass sample was processed in the lab,date,YYYY-MM-DD,,,,,warning
 Sieve,taxonID,Unique Identifer for taxon,fkey,,Taxon$taxonID,,,,warning
-Sieve,count,Number of individuals per sieve size,integer,,,demensionless,0,,warning
+Sieve,count,Number of individuals per sieve size,integer,,,dimensionless,0,,warning
 Sieve,sieveSize,Seive Mesh Size in mm,list,,,milimeters,,,warning
 Weight,locationID,Foreign key to the locationID defined on the Location sheet,fkey,,Location$locationID,,,,warning
 Weight,sampleID,"Seagrass Sample Identifier",string,,,,,,warning
