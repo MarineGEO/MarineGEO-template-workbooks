@@ -1,7 +1,6 @@
 import MarinegeoTemplateBuilder
 
 metadataValues = {"TemplateVersion": "v0.1.0",
-                  "ProtocolVersion": "v0.0.1",
                   "Title": "Seagrass Biomass Cores - [your site name] - [date in YYYY-MM-DD format]"}
 
 
