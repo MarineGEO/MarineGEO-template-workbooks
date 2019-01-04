@@ -27,6 +27,7 @@ fields = [
     Field(sheet='Data', fieldName='depth', fieldDefinition='Depth of deployment in meters', fieldType='decimal', unit='meter', minValue='0'),
     Field(sheet='Data', fieldName='notes', fieldDefinition='Additional notes about the location, dive conditions, photos', fieldType='string'),
     Field(sheet='Data', fieldName='media', fieldDefinition='File names of the recordings if video was collected', fieldType='string'),
+
 ]
 
 vocab = [

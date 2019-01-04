@@ -63,5 +63,5 @@ vocab = [
     Vocab(fieldName='taxonRank', code='Subspecies'),
 ]
 
-MarinegeoTemplateBuilder.main('MarineGEO_Seagrass-Epifauna_Data-Entry-Template', fields, vocab,
+MarinegeoTemplateBuilder.main('MarineGEO_Seagrass-Epifauna_Data-Entry-Template.xlsx', fields, vocab,
            'DEFAULT', metadataValues=metadataValues)
