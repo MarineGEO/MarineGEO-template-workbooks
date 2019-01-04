@@ -24,4 +24,8 @@ vocab = [
 ]
 
 # build the data entry template workbook
-MarinegeoTemplateBuilder.main('Demo-Template.xlsx', fields, vocab, "MarineGEO DEMO template", 'DEFAULT')
+MarinegeoTemplateBuilder.main('Demo-Template.xlsx', fields, vocab, 'DEFAULT',
+                              metadataValues={
+                                  "Title": "DEMO - fields and vocab defined as python objects"},
+                              seededValues="RANDOM"
+                              )
