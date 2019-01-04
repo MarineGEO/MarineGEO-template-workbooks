@@ -1,0 +1,67 @@
+import MarinegeoTemplateBuilder
+from MarinegeoTemplateBuilder import Field, Vocab
+
+metadataValues = {"TemplateVersion": "v0.1.0",
+                  "Title": "Seagrass Epifauna - [your site name] - [date in YYYY-MM-DD format]"}
+
+fields = [
+    Field(sheet='Location', fieldName='site', fieldDefinition='MarineGEO site abbreviation', fieldType='list', warnLevel='warning'),
+    Field(sheet='Location', fieldName='locationID', fieldDefinition='Unique code for each sampling location', fieldType='string', warnLevel='warning'),
+    Field(sheet='Location', fieldName='locality', fieldDefinition='Local or common name of the sampling location', fieldType='string', warnLevel='warning'),
+    Field(sheet='Location', fieldName='decimalLatitude', fieldDefinition='Decimal latitude hh.hhhhhhh', fieldType='decimal', unit='degree', minValue='-90', maxValue='90', warnLevel='warning'),
+    Field(sheet='Location', fieldName='decimalLongitude', fieldDefinition='Decimal longitude hh.hhhhhhh', fieldType='decimal', unit='degree', minValue='-180', maxValue='180', warnLevel='warning'),
+    Field(sheet='Location', fieldName='locationRemarks', fieldDefinition='Comments or notes about the location', fieldType='string', warnLevel='warning'),
+    Field(sheet='Taxon', fieldName='taxonID', fieldDefinition='Unique Identifer for taxon', fieldType='string', warnLevel='warning'),
+    Field(sheet='Taxon', fieldName='vernacularName', fieldDefinition='A common or vernacular name', fieldType='string', warnLevel='warning'),
+    Field(sheet='Taxon', fieldName='taxonRank', fieldDefinition='The taxonomic rank of the most specific name in the scientificName.', fieldType='list', warnLevel='warning'),
+    Field(sheet='Taxon', fieldName='scientificName', fieldDefinition='Lowest known taxon name', fieldType='string', warnLevel='warning'),
+    Field(sheet='Sieve', fieldName='locationID', fieldDefinition='Foreign key to the locationID defined on the Location sheet', fieldType='fkey', lookup='Location$locationID', warnLevel='warning'),
+    Field(sheet='Sieve', fieldName='sampleID', fieldDefinition='Seagrass Sample Identifier', fieldType='string', warnLevel='warning'),
+    Field(sheet='Sieve', fieldName='collectionDate', fieldDefinition='Date seagrass was collected', fieldType='date', formatString='YYYY-MM-DD', warnLevel='warning'),
+    Field(sheet='Sieve', fieldName='processingDate', fieldDefinition='Date seagrass sample was processed in the lab', fieldType='date', formatString='YYYY-MM-DD', warnLevel='warning'),
+    Field(sheet='Sieve', fieldName='taxonID', fieldDefinition='Unique Identifer for taxon', fieldType='fkey', lookup='Taxon$taxonID', warnLevel='warning'),
+    Field(sheet='Sieve', fieldName='count', fieldDefinition='Number of individuals per sieve size', fieldType='integer', unit='dimensionless', minValue='0', warnLevel='warning'),
+    Field(sheet='Sieve', fieldName='sieveSize', fieldDefinition='Seive Mesh Size in mm', fieldType='list', unit='milimeters', warnLevel='warning'),
+    Field(sheet='Weight', fieldName='locationID', fieldDefinition='Foreign key to the locationID defined on the Location sheet', fieldType='fkey', lookup='Location$locationID', warnLevel='warning'),
+    Field(sheet='Weight', fieldName='sampleID', fieldDefinition='Seagrass Sample Identifier', fieldType='string', warnLevel='warning'),
+    Field(sheet='Weight', fieldName='collectionDate', fieldDefinition='Date seagrass was collected', fieldType='date', formatString='YYYY-MM-DD', warnLevel='warning'),
+    Field(sheet='Weight', fieldName='processingDate', fieldDefinition='Date seagrass sample was processed in the lab', fieldType='date', formatString='YYYY-MM-DD', warnLevel='warning'),
+    Field(sheet='Weight', fieldName='taxonID', fieldDefinition='Unique Identifer for taxon', fieldType='fkey', lookup='Taxon$taxonID', warnLevel='warning'),
+    Field(sheet='Weight', fieldName='tinMass', fieldDefinition='Empty tin mass in grams', fieldType='decimal', unit='grams', minValue='0', warnLevel='warning'),
+    Field(sheet='Weight', fieldName='tinDryMass', fieldDefinition='Tin plus dry mass in grams', fieldType='decimal', unit='grams', minValue='0', warnLevel='warning'),
+    Field(sheet='Weight', fieldName='tinAshMass', fieldDefinition='Tin plus ash mass in grams', fieldType='decimal', unit='grams', minValue='0', warnLevel='warning'),
+]
+
+vocab = [
+    Vocab(fieldName='site', code='AUS-TAS', definition='Tasmania'),
+    Vocab(fieldName='site', code='BEL-CBC', definition='Carrie Bow Cay, Belize'),
+    Vocab(fieldName='site', code='CAN-BCC', definition='Hakai Institute, British Columbia, Canada'),
+    Vocab(fieldName='site', code='HKG-HKG', definition='Hong Kong'),
+    Vocab(fieldName='site', code='PAN-BDT', definition='Bocas del Toro, Panama'),
+    Vocab(fieldName='site', code='POR-MAD', definition='Madeira'),
+    Vocab(fieldName='site', code='USA-IRL', definition='Smithsonian Marine station at Fort Pierce, Florida'),
+    Vocab(fieldName='site', code='USA-HIK', definition='Kaneohe Bay, Hawaii'),
+    Vocab(fieldName='site', code='USA-MDA', definition='Smithsonian Environmental Research Center at Edgewater, Maryland'),
+    Vocab(fieldName='site', code='USA-SFB', definition='San Francisco Bay, California'),
+    Vocab(fieldName='site', code='USA-TXS', definition='Gulf Coast, Texas'),
+    Vocab(fieldName='site', code='USA-WAS', definition='Friday Harbor, Washington'),
+    Vocab(fieldName='sieveSize', code='8.0', definition='8.0 mm sieve'),
+    Vocab(fieldName='sieveSize', code='5.6', definition='5.6 mm sieve'),
+    Vocab(fieldName='sieveSize', code='4.0', definition='4.0 mm sieve'),
+    Vocab(fieldName='sieveSize', code='2.8', definition='2.8 mm sieve'),
+    Vocab(fieldName='sieveSize', code='2.0', definition='2.0 mm sieve'),
+    Vocab(fieldName='sieveSize', code='1.4', definition='1.4 mm sieve'),
+    Vocab(fieldName='sieveSize', code='1.0', definition='1.0 mm sieve'),
+    Vocab(fieldName='sieveSize', code='0.71', definition='0.71 mm sieve'),
+    Vocab(fieldName='sieveSize', code='0.5', definition='0.5 mm sieve'),
+    Vocab(fieldName='taxonRank', code='Class'),
+    Vocab(fieldName='taxonRank', code='Order'),
+    Vocab(fieldName='taxonRank', code='Family'),
+    Vocab(fieldName='taxonRank', code='Genus'),
+    Vocab(fieldName='taxonRank', code='Species'),
+    Vocab(fieldName='taxonRank', code='Subgenus'),
+    Vocab(fieldName='taxonRank', code='Subspecies'),
+]
+
+MarinegeoTemplateBuilder.main('MarineGEO_Seagrass-Epifauna_Data-Entry-Template', fields, vocab,
+           'DEFAULT', metadataValues=metadataValues)

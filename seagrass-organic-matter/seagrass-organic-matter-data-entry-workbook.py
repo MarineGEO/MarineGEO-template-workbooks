@@ -4,7 +4,7 @@ from MarinegeoTemplateBuilder.classes import Field, Vocab
 templateVersion = "v0.1.0"
 
 metadataValues = {"TemplateVersion": templateVersion,
-                  "Title": "Seagrass Sediment Organic Matter - [your site name] - [date in YYYY-MM-DD format]"}
+                  "Title": "Seagrass Organic Matter - [your site name] - [date in YYYY-MM-DD format]"}
 
 
 # columns to add to the workbook as a list of Field()'s
@@ -41,5 +41,5 @@ vocab = [
 ]
 
 
-MarinegeoTemplateBuilder.main('MarineGEO_Seagrass-Shoots_DataEntryTemplate_' + templateVersion + '.xlsx',
+MarinegeoTemplateBuilder.main('MarineGEO_Seagrass-Organic-Matter_Data-Entry-Template.xlsx',
            fields, vocab, 'DEFAULT', metadataValues=metadataValues, seededValues="RANDOM")
