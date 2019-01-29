@@ -5,14 +5,14 @@ Location,locality,Local or common name of the sampling location,string,,,,,,warn
 Location,decimalLatitude,"Decimal Latitude hh.hhhhhhh, approximate",decimal,,,degree,-90,90,warning
 Location,decimalLongitude,"Decimal Longitude hh.hhhhhhh, approximate",decimal,,,degree,-180,180,warning
 Location,locationRemarks,Comments or notes about the Location,string,,,,,,warning
-CoverTypes,type,"cover type to use",string,,,,,,warning
-CoverTypes,vernacularName,"A common or vernacular name",string,,,,,,warning
-CoverTypes,scientificName,"Lowest known taxon name",string,,,,,,warning
-CoverTypes,taxonRank,"The taxonomic rank of the most specific name in the scientificName.",list,,,,,,warning
+CoverTypes,type,cover type to use,string,,,,,,warning
+CoverTypes,vernacularName,A common or vernacular name,string,,,,,,warning
+CoverTypes,scientificName,Lowest known taxon name,string,,,,,,warning
+CoverTypes,taxonRank,The taxonomic rank of the most specific name in the scientificName.,list,,,,,,warning
 Cover,locationID,Foreign key to the locationID defined on the Location sheet,fkey,,Location$locationID,,,,warning
-Cover,eventDate,"Sampling date (YYYY-MM-DD)",date,YYYY-MM-DD,,,,,warning
-Cover,eventTime,"Sampling time. Military format (HH:MM)",date,HH:MM,,,,,warning
-Cover,transectNumber,"Transect Number",integer,,,dimensionless,1,3,warning
-Cover,stopNumber,"Stop number along transect",integer,,,dimensionless,1,5,warning
-Cover,coverType,"Lowest known taxon name",fkey,,CoverTypes$type,,,,warning
-Cover,percentCover, Percent cover of category,list,,,,,,warning
+Cover,eventDate,Sampling date (YYYY-MM-DD),date,YYYY-MM-DD,,,,,warning
+Cover,eventTime,Sampling time. Military format (HH:MM),date,HH:MM,,,,,warning
+Cover,transectNumber,Transect Number,integer,,,dimensionless,1,3,warning
+Cover,stopNumber,Stop number along transect,integer,,,dimensionless,1,5,warning
+Cover,coverType,Lowest known taxon name,fkey,,CoverTypes$type,,,,warning
+Cover,pctCover, Percent cover of category,list,,,,,,warning
